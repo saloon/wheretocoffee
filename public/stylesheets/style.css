@@ -1,0 +1,86 @@
+#map {
+  height: 600px;
+  width: 100%;
+  margin-top: 20px
+}
+
+.location-input {
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid #efeff4;
+  padding: 5px 0 10px 0;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  background-color: #FBFBFF;
+}
+
+.card.highlight {
+  background-color: #FDFFE5;
+}
+
+.card-index {
+  float: left;
+  margin-right: 4%;
+  position: relative;
+  text-align: right;
+  width: 10%;
+  color: #aeb4b6;
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 7px;
+}
+
+.card-content {
+  float: left;
+  position: relative;
+  width: 86%;
+}
+
+.card-title {
+  color: #2d5be3;
+  cursor: pointer;
+  font-size: 21px;
+  margin: 0 0 10px;
+}
+
+.card-meta-score {
+  border-radius: 16px;
+  float: left;
+  font-size: 13px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 7px;
+  padding: 0;
+  top: 0;
+  width: 32px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-meta-address {
+  color: #959b9e;
+  font-size: 11px;
+  line-height: 140%;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 1px 0 0 0;
+}
+
+.card-meta-address-line {
+  color: #aeb4b6;
+}
+
+.card-meta-address-price {
+  color: #efeff4;
+}
+
+.card-meta-address-price .darken {
+  color: #959b9e;
+}
